@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient( to bottom, white, black);
+    height: 100vh;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+table {
+    width: 100%;
+    margin: 12px;
+    text-align: center;
+ 
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 4px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+#btn_criar {
+    background-color: rgb(129, 129, 129);
+    margin: 0 12px;
+}
+
+#btn_criar a {
+    color: white;
+}
+
+#buscar {
+    height: 24px;
+    margin-right: 5px;
+}
+
+#campo_pesquisa {
+    margin: 0 12px;
+}
+
+#btn_pesquias {
+    border: none;
+    background-color: rgb(129, 129, 129);
+    color: white;
+} 
+
+#btn_delete {
+    color: red;
+}
+
+#btn_edit {
+    color: black;
+}
+
+#container_topo {
+    margin-top: 12px;
+}
